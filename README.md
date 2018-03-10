@@ -18,3 +18,7 @@
 * Ported to Go on an Apple Macbook Pro by Sean P. Kane.
 * This is a public domain adventure and may not be sold for profit
 
+## Some other versions
+Original C version: https://github.com/spkane/c-paranoia
+Python version: https://github.com/spkane/py-paranoia
+Go version: https://github.com/spkane/go-paranoia
