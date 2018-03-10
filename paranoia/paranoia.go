@@ -1,8 +1,8 @@
 package main
 
-// TODO: Clean out logic choice maps
 // TODO: Add line-wrapping
-// TODO: Sort keys in choices?
+// TODO: Sort keys in choices
+// TODO: Consolidate makeChoice and simpleChoice
 
 import (
 	"bufio"
@@ -117,8 +117,6 @@ func (p page) makeChoice(counters *gameCounters) uint64 {
 		p.printDescription(counters)
 	}
 }
-
-// TODO: Consolidate makeChoice and simpleChoice
 
 func simpleChoice(p page, choices map[uint64]string, counters *gameCounters) uint64 {
 	for {
@@ -1283,8 +1281,6 @@ society.  In a week you receive a detailed Training Course bill totalling
 			style:   "end",
 		},
 	}
-
-	// TODO: look for Printf %d, etc.
 
 	clearScreen()
 	instructions()
